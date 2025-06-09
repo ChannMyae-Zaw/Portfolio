@@ -1,0 +1,41 @@
+@keyframes fly-in {
+    from {
+      transform: translate(-100%, 0) rotate(140deg);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-fly-in {
+    animation: fly-in 1.7s ease-out forwards;
+  }
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-in-right {
+    animation: slide-in-right 1s ease-out forwards;
+  }
+
+  .clip-trapezium {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+  }
+
+  .trapezium2 {
+    clip-path: polygon(0% 0%, 70% 0%, 100% 100%, 0% 100%)
+  }
+
+  .trapezium3 {
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%)
+  }

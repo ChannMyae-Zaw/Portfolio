@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+@theme {
+    --font-instrument-sans: "Instrument Sans", sans-serif;
+    --color-primary: #D394D3;
+    --color-secondary: #88D8C0;
+    --color-accent: #FFA2B2;
+    --color-neutral: #F0F0F0;
+    --color-text: #2A2A2A;
+    --shadow-3xl: 0 5px 5px rgba(0, 0, 0, 0.5); 
+  }
+
+  @layer utilities {
+    .text-shadow {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .text-shadow-lg {
+        text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    }
+}
