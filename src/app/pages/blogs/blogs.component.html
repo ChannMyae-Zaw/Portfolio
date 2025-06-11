@@ -7,5 +7,14 @@
         </div>
     </div>
     <div class="h-15"></div>
-
+    <section>
+        <div class="lg:grid grid-cols-2 gap-4">
+            <app-blog-card
+                *ngFor="let blog of blogs$ | async"
+                [blog] = "blog"
+                (blogSelected) = "navigateToBlog($event)"
+            >            
+            </app-blog-card>
+        </div>
+    </section>
 </body>
