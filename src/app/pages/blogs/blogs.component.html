@@ -1,5 +1,5 @@
-<body class="overflow-x-clip">
-    <div class=" bg-primary h-100 lg:h-110">       
+<body class="overflow-x-clip bg-neutral">
+    <div class=" bg-primary h-100 lg:h-110">              
         <app-header class=" sm: mx-auto text-shadow relative z-10"></app-header>
         <div class="h-30"></div>
         <div class="w-full text-7xl lg:text-8xl text-center text-white text-shadow relative z-10"> 
@@ -7,8 +7,8 @@
         </div>
     </div>
     <div class="h-15"></div>
-    <section>
-        <div class="lg:grid grid-cols-2 gap-4">
+    <section class="mx-10 lg:mx-15">
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mx-10 lg:mx:15 pb-10">
             <app-blog-card
                 *ngFor="let blog of blogs$ | async"
                 [blog] = "blog"

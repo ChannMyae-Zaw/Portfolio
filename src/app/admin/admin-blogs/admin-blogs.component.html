@@ -1,0 +1,22 @@
+<form [formGroup]="form" (ngSubmit)="publishBlog()">
+  <div class="w-screen flex flex-row items-center">
+    <input id="title" type="text" formControlName="title" class="text-5xl pl-5 pb-3 ">
+    <div>
+     <label> 카태고리:</label>
+       <select formControlName="category" id="category">
+        <option value="Programming">Programming</option>
+        <option value="Life">Life</option>
+        <option value="Learning">Learning</option>
+       </select>
+    </div>
+  </div>
+  <input id="imageUrl" type="text" formControlName="imageUrl">
+  <label> excerpt: </label>
+  <input id="excerpt" type="text" formControlName="excerpt">
+  <div class="NgxEditor__Wrapper">
+    <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"> </ngx-editor-menu>
+    <ngx-editor [editor]="editor" [ngModel]="html" formControlName="editorContent" class="NgxEditor__Content mx-5"> </ngx-editor>
+  </div>
+  <button type="submit" [disabled]="!form.valid" class="absolute bottom-10 right-10 bg-secondary px-5 py-3 rounded-3xl shadow-2xl text-white font-bold text-xl">Save</button>
+</form>
+

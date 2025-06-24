@@ -1,47 +1,141 @@
-<body class="overflow-x-clip">
-    <div class=" bg-primary h-100 lg:h-110">
-    <div class=" ml-10 mr-10  h-137 lg:h-147 ">
-        <app-header class=" sm: mx-auto text-shadow relative z-10"></app-header>
-        <div class="relative">
-            <div class="absolute left-[180px] lg:left-1/4 top-[-403px] lg:top-[-430px] w-192 h-144 lg:h-156 bg-secondary transform rotate-140 shadow-2xl animate-fly-in"></div>
-        </div>    
-        <div class="h-55 lg:h-50"></div>
-        <div class="relative z-10 flex flex-col items-center md:flex-row justify-center w-full lg:ml-[-30px]">
-            <div>
-                <img alt="profile picture" src="assets/323641937_1877444795937399_6225257801839810027_n.jpg"
-                class="w-60 lg:w-80 h-60 lg:h-80 rounded-full mt-2 mx-7 lg:mx-20 shadow-3xl">
-            </div>     
-            <div class=" mt-10 lg:mt-6 lg:mx-10 lg:w-200 mx-3 animate-slide-in-right delay-1000 items-center">
-                <div class="text-white block text-4xl lg:text-6xl font-bold mb-5 lg:mb-10 font-instrument-sans text-shadow"> Hello! <br>I am Chann Myae Zaw</div>
-                <div class="mt-10 lg:text-xl break-words"> A Data Analysis with a passion for numbers <br><br>I am a software engineering graduate of Myanamr nationality, currently residing in Thailand for educational purposes. I am 22 years of age. I speak Burmese, English and Korean fluently and currently learning Thai.
-                I like to sing, play badminton and physics!
-                </div>
-            </div>        
-        </div> 
+<body class="overflow-x-clip bg-neutral ">
+    <div class="absolute bg-secondary h-60 w-40 left-0 top-40 clip-triangle lg:hidden "></div>
+    <div class="absolute right-0 h-100 w-100 bg-secondary top-10 clip-triangle2 hidden lg:block"></div>
+    <div class=" bg-primary h-100 lg:h-110 flex flex-col">
+        <div class=" ml-10 mr-10  h-137 lg:h-147 ">
+            <app-header class=" mx-auto text-shadow relative z-10 self-center"></app-header>
+            <div class="relative">
+                <div class="absolute bg-secondary h-120 w-4 left-48 top-[-140px] rotate-140 lg:hidden md:hidden"></div>
+                <div class="absolute left-[180px] lg:left-1/4 top-[-403px] lg:top-[-430px] w-192 h-144 lg:h-156 bg-secondary transform rotate-140 shadow-2xl animate-fly-in"></div>
+            </div>  
+            
+            <div class="h-55 md:h-40 lg:h-50"></div> 
+        </div>
     </div>
-</div>
-<div class="bg-neutral h-130 lg:h-110" ></div>
-<div class=" relative bg-secondary h-210 lg:h-140">
-    <div class="absolute top-10 left-0 w-full h-190 lg:h-120 bg-white opacity-35 z-1 lg:z-0"></div>
-    <div data-aos="slide-left" class="absolute top-0 right-0 w-100 h-210 lg:h-full bg-primary clip-trapezium"></div>
-    <div class="relative text-4xl lg:text-5xl mx-13 pt-15 lg:pt-20 z-10 text-shadow">Education</div>
-    <div class="relative flex flex-col lg:flex-row-reverse mx-18 z-10">    
-        <img src="assets/university.png" class=" mx-auto mt-10 w-auto rounded-xl">
-        <div class=" pt-8 lg:pr-15 lg:text-xl text-justify">           I attended Mae Fah Luang University, also known as the 'University in the Garden,' situated in Chiang Rai, near the border with Myanmar, in the northernmost part of Thailand. As the name suggests, it is a truly beautiful university surrounded by stunning nature.
-            <br><br>     My educational journey there was eye-opening, challenging my skills and resilience while helping me grow as a person. Academically, I also gave my best for every course. Throughout the study, I took extra courses that interest me and maintained good grades every semester because I consider education and knowledge as a fundamental part of life.
+    <div class="relative z-10 flex flex-col items-center md:flex-row justify-center w-full lg:ml-[-20px] mt-[-120px] md:mt-[-200px] px-8">
+        <div class="md:flex-1">
+            <img alt="profile picture" src="assets/323641937_1877444795937399_6225257801839810027_n.jpg"
+            class="w-60 lg:w-80 lg:h-80 rounded-l mt-2 mx-7 lg:mx-20 shadow-3xl">
+        </div>     
+        <div class=" md:flex-1 mt-10 md:mt-15 lg:mt-12 lg:mx-10 lg:w-200 mx-3 animate-slide-in-right delay-1000 items-center h-auto">
+            <div class="text-white block text-4xl lg:text-6xl font-bold mb-5 lg:mb-10 font-instrument-sans text-shadow"> Hello! <br>I am Chann Myae Zaw</div>
+            <div class="mt-10 lg:text-xl break-words text-text text-justify"> A Data Analysis with a passion for numbers <br><br>I am a software engineering graduate of Myanamr nationality, currently residing in Thailand for educational purposes. I am 22 years of age. I speak Burmese, English and Korean fluently and currently learning Thai.
+                    I like to sing, play badminton and physics!
+            </div>
+        </div>        
+    </div>
+    <div data-aos="slide-left"class="mx-10 lg:mx-40 my-20 lg:my-40 lg:flex items-center">
+        <div class="text-text text-3xl md:text-4xl lg:text-5xl font-semibold text-center lg:basis-3/5"> What I Do</div>
+        <div>
+            <div class=" text-text my-10 bg-primary flex flex-row gap-4 px-5 py-5 rounded-l items-center">
+                <img src="assets/github-mark-white.png" class="w-12 h-12"> 
+                <div class="text-justify md:text-xl lg:text-2xl">
+                    I develop both front-end and back-end of websites and apps until deployment.
+                </div>
+            </div>
+            <div class=" text-text my-10 bg-secondary flex flex-row gap-4 px-5 py-5 rounded-l items-center">
+                <img src="assets/github-mark-white.png" class="w-12 h-12"> 
+                <div class="text-justify md:text-xl lg:text-2xl">
+                    I develop both front-end and back-end of websites and apps until deployment.
+                </div>
+            </div>
+            <div class=" text-text my-10 bg-primary flex flex-row gap-4 px-5 py-5 rounded-l items-center">
+                <img src="assets/github-mark-white.png" class="w-12 h-12"> 
+                <div class="text-justify md:text-xl lg:text-2xl">
+                    I develop both front-end and back-end of websites and apps until deployment.
+             </div>
+            </div>
+        </div>
+    </div>
+    <div data-aos="slide-up" class="text-text text-3xl md:text-4xl lg:text-5xl font-semibold text-center mb-10 lg:mb-30"> My Skills</div>
+    <div class="mx-10 lg:mx-40 flex flex-wrap gap-x-4 lg:gap-x-6 gap-y-2 lg:gap-y-4">
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-secondary basis-full md:basis-2/5 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/angular-original-wordmark.svg" class=" h-45 md:h-60 lg:h-90"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-primary basis-2/5 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/flutter-original.svg" class="h-14 md:h-21 lg:h-30">
+            <div class="text-2xl ml-2 md:text-4xl md:ml-4">Flutter</div>
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-primary basis-2/5 md:basis-1/4 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/python-original-wordmark.svg" class=" h-14 md:h-21 lg:h-30"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-secondary basis-2/5 md:basis-1/4 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/firebase-plain-wordmark.svg" class="h-14 md:h-21 lg:h-30"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-primary basis-2/5 md:basis-1/4 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/tailwindcss-original-wordmark.svg" class=" h-26 md:h-38 lg:h-52"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-primary basis-2/5 md:basis-1/5 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/pandas-original-wordmark.svg" class=" h-14 md:h-19 lg:h-30"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-primary basis-2/5 md:basis-1/5 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/scikitlearn-original.svg" class="h-16 md:h-21 lg:h-30"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-primary basis-2/5 md:basis-1/5 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/figma-original.svg" class=" h-12 md:h-16 lg:h-24"> 
+        </div>
+        <div data-aos="slide-up" class=" flex justify-center items-center text-text my-1 bg-secondary basis-2/5 md:basis-1/5 grow h-20 md:h-30 lg:h-40">
+            <img src="assets/github-original-wordmark.svg" class=" h-12 md:h-16 lg:h-24"> 
+        </div>
+    </div>
+    <div>
+        <div data-aos="zoom-in"class="text-text text-3xl md:text-4xl lg:text-5xl font-semibold text-center mt-20 lg:mt-40"> My Interests</div>
+    </div>
+    <div class=" mx-10 lg:mx-40 mt-12 lg:mt-20 text-text text-center text-sm md:text-xl">
+        <div class="flex justify-evenly text-center">
+            <div data-aos="zoom-in" class="bg-primary h-24 w-24 md:h-30 md:w-30 lg:h-40 lg:w-40 rounded-full flex items-center  justify-center"> Gen AI Applications</div>
+            <div data-aos="zoom-in" class="bg-secondary h-24 w-24 md:h-30 md:w-30 lg:h-40 lg:w-40 rounded-full flex items-center  justify-center"> Full Stack</div>
+        </div>
+        <div class="flex justify-evenly mt-10">
+            <div  data-aos="zoom-in" class="bg-secondary h-24 w-24 md:h-30 md:w-30 lg:h-40 lg:w-40 rounded-full flex items-center  justify-center px-5"> Machine Learning</div>
+            <div data-aos="zoom-in" class="bg-primary h-24 w-24 md:h-30 md:w-30 lg:h-40 lg:w-40 rounded-full flex items-center  justify-center"> Large Language Models</div>
+            <div data-aos="zoom-in" class="bg-primary h-24 w-24 md:h-30 md:w-30 lg:h-40 lg:w-40 rounded-full flex items-center justify-center"> Research</div>
+        </div>
+    </div>
+    <div class="h-20 lg:h-50"></div>
+    <div class="flex justify-between">
+        <div data-aos="slide-right" class="lg:py-10 py-10">
+            <div class="bg-primary lg:h-6 lg:w-40 h-2 w-14 md:w-20 md:h-4"></div>
+            <div class = "lg:h-6 h-3"></div>
+            <div class="bg-secondary lg:h-6 h-2 lg:w-70 w-20 md:w-35 md:h-4"></div>
+            <div class = "h-3"></div>
+            <div class="bg-primary lg:h-6 h-2 lg:w-100 w-26 md:w-50 md:h-4"></div>
+        </div>
+            <a routerLink="/projects" routerLinkActive="active" data-aos="zoom-in" data-aos-delay="450"class="relative lg:w-50 w-32 lg:h-50 h-32 md:w-35 block z-10 flex justify-center items-center">
+                <div class="bg-accent lg:h-50 lg:w-50 w-20 h-20 md:w-35 md:h-35 rounded-full shadow-3xl"></div>
+                <div class="absolute inset-0 flex items-center justify-center text-white text-center lg:text-3xl text-xl text-shadow">
+                    Check Out My Projects
+                </div>
+            </a>
+        <div data-aos="slide-left"class="flex flex-col items-end lg:py-10 py-10 mb-10">
+            <div class="bg-secondary lg:h-6 h-2 lg:w-100 w-26 md:w-50 md:h-4"></div>
+            <div class="h-3"></div>
+            <div class="bg-primary lg:h-6 h-2 lg:w-70 w-20 md:w-35 md:h-4"></div>
+            <div class="h-3"></div>
+            <div class="bg-secondary lg:h-6 h-2 lg:w-40 w-14 md:w-20 md:h-4"></div>
+        </div>
+    </div>
+</body>
+<!--
+<div class="bg-neutral h-110 md:h-50 lg:h-70 mt-30" ></div>
+    <div class=" relative  h-auto">
+    <div data-aos="fade-up" class="relative text-4xl lg:text-5xl mx-12 pt-15 lg:pt-20 z-10 text-shadow text-text">Education</div>
+    <div class="relative flex flex-col lg:flex-row-reverse mx-12 z-10">    
+        <img data-aos="fade-up" src="assets/university.png" class=" mx-auto mt-10 w-auto rounded-l shadow-3xl">
+        <div data-aos="fade-up" class=" pt-8 lg:pr-15 lg:text-xl text-text text-justify">           I attended Mae Fah Luang University, also known as the 'University in the Garden,' situated in Chiang Rai, near the border with Myanmar, in the northernmost part of Thailand. As the name suggests, it is a truly beautiful university surrounded by stunning nature.
+            <br data-aos="fade-up"><br>     My educational journey there was eye-opening, challenging my skills and resilience while helping me grow as a person. Academically, I also gave my best for every course. Throughout the study, I took extra courses that interest me and maintained good grades every semester because I consider education and knowledge as a fundamental part of life.
             <br><br> 
             GPAX : 3.98
         </div>
     </div>
 </div>
-<div data-aos="fade-up" class="lg:text-xl mx-17 mt-20 text-justify"> I aspire to engage in researhes and data analysis in the fields of natural science. So, I have learnt various skills that I need for that from coding languages and libraires of python to other knowledges of maths, physics etc. So I am especially good in concepts, problem solving and applying coding skills to look for meaningful stories from data and finding solutions</div>
+<div data-aos="fade-up" class="lg:text-xl mx-12 mt-15 text-justify text-text"> I aspire to engage in researhes and data analysis in the fields of natural science. So, I have learnt various skills that I need for that from coding languages and libraires of python to other knowledges of maths, physics etc. So I am especially good in concepts, problem solving and applying coding skills to look for meaningful stories from data and finding solutions</div>
 
-<div class="relative w-full mt-20">
+<div class="relative w-full mt-15">
     <div data-aos="slide-right"class="absolute top-5 bg-primary h-30 lg:h-50 w-3/8 trapezium2"></div>
-    <div data-aos="slide-left"class="w-fit mx-auto my-15 pl-40">
-
-        <div class="text-4xl lg:text-5xl mx-auto text-shadow"> Technical Skills</div>
-        <ul class="list-disc pl-5 lg:text-xl mt-5">
+    <div data-aos="slide-left"class="w-fit md:ml-120 ml-20">
+        <div class="text-4xl lg:text-5xl mx-auto text-shadow text-text"> Technical Skills</div>
+        <ul class="list-disc pl-5 lg:text-xl mt-5 text-text">
             <li>Angular, React Framework, Flutter</li>
             <li>Firebase, Strapi backend</li>
             <li>Software Design and Architecture</li>
@@ -50,10 +144,10 @@
     </div>
     <div class="h-20"> </div>
     <div data-aos="slide-left" class="absolute right-0 bottom-0 bg-secondary h-30 lg:h-50 w-3/8 trapezium3"></div>
-    <div data-aos="slide-right" class="w-fit ml-20">
+    <div data-aos="slide-right" class="w-fit ml-12">
         
-        <div class="text-4xl lg:text-5xl text-shadow"> Soft Skills</div>
-        <ul class="list-disc pl-5 lg:text-xl mt-5">
+        <div class="text-4xl lg:text-5xl text-shadow text-text"> Soft Skills</div>
+        <ul class="list-disc pl-5 lg:text-xl mt-5 text-text">
             <li>Fast Learner</li>
             <li>Communication and Listening, Teamwork</li>
             <li>Mathematical knowledge and understanding</li>
@@ -62,39 +156,39 @@
     </div>
 </div>
 <div class="lg:flex lg:flex-row h-auto mt-30">
-    <div class="bg-secondary mt-5 pt-5 lg:w-1/4">
+    <div class=" mt-5 pt-5 lg:w-1/4 text-text">
         <div class="text-4xl"> Experience</div>
         <div> Experience ma shi pr buu byr</div>
     </div>
-    <div class="bg-primary pt-5 lg:pt-0 lg:mt-5 lg:w-3/4">
+    <div class=" pt-5 lg:pt-0 lg:mt-5 lg:w-3/4 text-text">
         <div class="text-4xl lg:mt-5"> Projects Brief</div>
         <div> Experience ma shi pr buu byr </div>
     </div>
 </div>
 <div class = "h-15"></div>
 <div class="flex justify-between">
-    <div data-aos="slide-right" class="lg:py-10 py-7.5">
-        <div class="bg-primary lg:h-6 lg:w-40 h-3 w-20"></div>
+    <div data-aos="slide-right" class="lg:py-10 py-10">
+        <div class="bg-primary lg:h-6 lg:w-40 h-2 w-14 md:w-20 md:h-4"></div>
         <div class = "lg:h-6 h-3"></div>
-        <div class="bg-secondary lg:h-6 h-3 lg:w-70 w-35"></div>
+        <div class="bg-secondary lg:h-6 h-2 lg:w-70 w-20 md:w-35 md:h-4"></div>
         <div class = "h-3"></div>
-        <div class="bg-primary lg:h-6 h-3 lg:w-100 w-50"></div>
+        <div class="bg-primary lg:h-6 h-2 lg:w-100 w-26 md:w-50 md:h-4"></div>
     </div>
-        <a routerLink="/projects" routerLinkActive="active" data-aos="zoom-in" data-aos-delay="450"class="relative lg:w-50 w-32 lg:h-50 h-32 block z-10">
-            <div class="bg-accent lg:h-50 lg:w-50 w-32 h-32 rounded-full shadow-2xl"></div>
-            <div class="absolute inset-0 flex items-center justify-center text-white text-center lg:text-3xl text-2xl text-shadow">
+        <a routerLink="/projects" routerLinkActive="active" data-aos="zoom-in" data-aos-delay="450"class="relative lg:w-50 w-32 lg:h-50 h-32 md:w-35 block z-10 flex justify-center items-center">
+            <div class="bg-accent lg:h-50 lg:w-50 w-20 h-20 md:w-35 md:h-35 rounded-full shadow-3xl"></div>
+            <div class="absolute inset-0 flex items-center justify-center text-white text-center lg:text-3xl text-xl text-shadow">
                 Check Out My Projects
             </div>
         </a>
-    <div data-aos="slide-left"class="flex flex-col items-end lg:py-10 py-7.5">
-        <div class="bg-secondary lg:h-6 h-3 lg:w-100 w-50"></div>
+    <div data-aos="slide-left"class="flex flex-col items-end lg:py-10 py-10 mb-10">
+        <div class="bg-secondary lg:h-6 h-2 lg:w-100 w-26 md:w-50 md:h-4"></div>
         <div class="h-3"></div>
-        <div class="bg-primary lg:h-6 h-3 lg:w-70 w-35"></div>
+        <div class="bg-primary lg:h-6 h-2 lg:w-70 w-20 md:w-35 md:h-4"></div>
         <div class="h-3"></div>
-        <div class="bg-secondary lg:h-6 h-3 lg:w-40 w-20"></div>
+        <div class="bg-secondary lg:h-6 h-2 lg:w-40 w-14 md:w-20 md:h-4"></div>
     </div>
-</div>
-</body>
+</div>-->
+
 
 
 

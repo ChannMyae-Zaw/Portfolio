@@ -33,7 +33,7 @@ export class BlogsComponent {
 }
 
 export interface Blog{
-  id: string;
+  id?: string;
   title: string;
   excerpt: string;
   content: string;

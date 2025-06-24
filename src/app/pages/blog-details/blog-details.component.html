@@ -1,4 +1,6 @@
-<div>
-    <h1> {{blog?.title}}</h1>
-    <p> {{blog?.content}} </p>
-</div>
+<body class="bg-neutral text-justify h-screen">
+    <div class="mx-12 pt-5 bg-neutral text-text">
+        <h1> {{blog?.title}}</h1>
+        <div [innerHTML]="blog?.content"></div>
+    </div>
+</body>

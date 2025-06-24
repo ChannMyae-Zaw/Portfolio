@@ -1,5 +1,5 @@
-<body class="overflow-x-clip">
-    <div class=" bg-primary h-100 lg:h-110">       
+<body class=" bg-neutral">
+    <div class=" relative overflow-x-clip bg-primary h-100 lg:h-110">       
         <app-header class=" sm: mx-auto text-shadow relative z-10"></app-header>
         <div class="h-30"></div>
         <div class="w-full text-7xl lg:text-8xl text-center text-white text-shadow relative z-10"> 
@@ -9,7 +9,7 @@
         <div data-aos="zoom-in" data-aos-delay="400" class="h-80 lg:h-100 w-80 lg:w-100 bg-secondary absolute right-[-140px] lg:right-[-160px] rounded-full top-[-140px] lg:top-[-160px] shadow-xl z-"></div>
     </div>
     <div class="h-15"></div>
-    <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mx-10 lg:mx:15">
+    <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mx-10 lg:mx:15 pb-10">
         <app-project-card
             *ngFor="let project of projects"
             [title]="project.title"
@@ -19,5 +19,4 @@
             [link]="project.link"
         ></app-project-card>
     </div>
-
 </body>

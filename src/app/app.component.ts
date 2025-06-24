@@ -3,6 +3,8 @@ import { RouterModule } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import * as AOS from 'aos';
+import { NgxEditorModule, schema } from 'ngx-editor';
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, RouterModule],

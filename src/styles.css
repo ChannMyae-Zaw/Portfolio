@@ -2,11 +2,11 @@
 @import "tailwindcss";
 @theme {
     --font-instrument-sans: "Instrument Sans", sans-serif;
-    --color-primary: #D394D3;
-    --color-secondary: #88D8C0;
-    --color-accent: #FFA2B2;
-    --color-neutral: #F0F0F0;
-    --color-text: #2A2A2A;
+    --color-primary: #64748b;
+    --color-secondary: #5CA0ED;
+    --color-accent: #EB5160;
+    --color-neutral: #222024;
+    --color-text: #E6E4F0;
     --shadow-3xl: 0 5px 5px rgba(0, 0, 0, 0.5); 
   }
 
@@ -18,3 +18,38 @@
         text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
     }
 }
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.ProseMirror li {
+  margin-bottom: 0.25rem;
+}
+html, body { min-height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

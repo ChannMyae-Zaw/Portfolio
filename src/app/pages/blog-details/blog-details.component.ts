@@ -16,7 +16,7 @@ export class BlogDetailsComponent {
   ngOnInit(){
     this.blog = this.blogService.getBlog();
     if(!this.blog){
-
+      
     }
   }
 
