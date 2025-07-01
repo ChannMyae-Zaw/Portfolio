@@ -1,8 +1,14 @@
-<div (click)="onCardClick()"class="p-4 shadow-lg rounded-xl bg-white my-2">
+<div class=" h-full flex flex-col rounded-l shadow-lg bg-white lg:min-h-100">
   <img *ngIf="blog.imageUrl" [src]="blog.imageUrl" alt="{{ blog.title }}" class="w-full h-40 object-cover rounded-md mb-4" />
-  <div class="flex items-center">
-    <h2 class="text-2xl font-bold my-1">{{ blog.title }}</h2>
-    <span class="bg-gray-200 text-sm px-2 py-1 rounded mx-3 "> {{blog.category}}</span>
+  
+    <div class="px-5 flex flex-none">
+      <h2 class="text-3xl font-bold">{{ blog.title }}</h2>
+      <span class="bg-gray-200 text-sm px-2 py-1 rounded mx-3 h-8"> {{blog.category}}</span>
+    </div>
+    <p class="text-gray-700 mt-4 mb-4 px-5 pb-2 text-justify grow ">{{ blog.excerpt }}</p>
+    <div class="flex justify-center flex-none">
+      <button (click)="onCardClick()"class="h-10 w-28 border-secondary text-secondary border-2 mb-6 shadow-2xl">
+      Read More
+    </button>
   </div>
-  <p class="text-gray-700 mt-2 mb-4">{{ blog.excerpt }}</p>
 </div>

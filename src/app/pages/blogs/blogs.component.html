@@ -1,19 +1,32 @@
 <body class="overflow-x-clip bg-neutral">
-    <div class=" bg-primary h-100 lg:h-110">              
+    <div class=" bg-primary h-100 lg:h-110 px-10">              
         <app-header class=" sm: mx-auto text-shadow relative z-10"></app-header>
         <div class="h-30"></div>
         <div class="w-full text-7xl lg:text-8xl text-center text-white text-shadow relative z-10"> 
         Blogs
         </div>
     </div>
-    <div class="h-15"></div>
-    <section class="mx-10 lg:mx-15">
-        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mx-10 lg:mx:15 pb-10">
+    <div class="h-7"></div>
+    <div class=" mx-15 my-5 flex justify-start text-text">
+        <button class="h-9 w-20 bg-primary hover:bg-gray-600 rounded-2xl mr-3" (click)="filterByCategory('All')" [class.bg-secondary]="selectedCategory === 'All'" [disabled]="selectedCategory === 'All'">
+            All           
+        </button>
+        <button class="h-9 w-20 bg-primary  hover:bg-gray-600 rounded-2xl mr-3 " (click)="filterByCategory('Learning')" [class.bg-secondary]="selectedCategory === 'Learning'" [disabled]="selectedCategory === 'Learning'"> 
+            Learning          
+        </button>
+        <button class="h-9 w-20 bg-primary  hover:bg-gray-600 rounded-2xl" (click)="filterByCategory('Life')" [class.bg-secondary]="selectedCategory === 'Life'" [disabled]="selectedCategory === 'Life'">
+            Life           
+        </button>
+    </div>
+    <div class="h-7"></div>
+    <section >
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-6 mx-15 lg:mx:15 pb-10
+        md:grid-cols-2 items-stretch md:gap-y-10">
             <app-blog-card
-                *ngFor="let blog of blogs$ | async"
+                *ngFor="let blog of filteredBlogs$ | async"
                 [blog] = "blog"
                 (blogSelected) = "navigateToBlog($event)"
-            >            
+            >           
             </app-blog-card>
         </div>
     </section>

@@ -13,4 +13,5 @@ export class ProjectCardComponent {
   @Input() techStack!: string[];
   @Input() imageUrl?: string;
   @Input() link?: string;
+  @Input() githubLink?: string;
 }
