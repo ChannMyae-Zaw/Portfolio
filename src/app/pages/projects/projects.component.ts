@@ -41,7 +41,7 @@ export class ProjectsComponent {
     },
       {
       title: 'AI Powered Code Documentation Extension for VS Code',
-      description: 'Angular + OpenWeather API integration',
+      description: 'A powerful VS Code extension that uses AI to automatically generate code documentation, rename elements consistently across files, and help you write cleaner, more maintainable code — all from a simple sidebar. Save time, reduce manual work, and keep your codebase well-documented with ease.',
       imageUrl: "",
       techStack:["Svelte", "Python", "Langchain", "VS code APIs", "ChatGPT", "Gemini", "Deepseek"],
       link: 'https://marketplace.visualstudio.com/items?itemName=FoodokuAthena.code-documentation#:~:text=A%20VS%20Code%20extension%20that%20helps%20you%20automatically,%F0%9F%93%84%20Attach%20your%20coding%20standard%20%28PDF%29%2C%20or%20not%21',
@@ -49,7 +49,7 @@ export class ProjectsComponent {
     },
       {
       title: 'AI Powered Resume Analyser And Information Extractor',
-      description: 'Angular + OpenWeather API integration',
+      description: 'An AI-powered web app that extracts and summarizes key details from resumes, including education, experience, skills, and contact information. Built with Python, NLP models, and a user-friendly interface, it streamlines candidate review by converting multiple resume files into a structured and searchable format.',
       imageUrl: "",
       techStack:["Python", "Streamlit", "Gemini API"],
       link: 'https://channmyae-zaw-resume-infomation-extractor-app-pkspia.streamlit.app/',
@@ -57,15 +57,15 @@ export class ProjectsComponent {
     },
       {
       title: 'Portfolio Website',
-      description: 'Angular + OpenWeather API integration',
+      description: 'A responsive, modern portfolio built with Angular and Firebase to showcase projects, blogs, and skills. It features Firebase Authentication for admin side,  dynamic blog filtering, and Firestore integration for smooth content management. Designed to highlight both technical expertise and project experience in a clean, user-friendly layout.',
       imageUrl: "",
       techStack:["Angular", "Firebase", "Server-side"],
       link: 'https://your-weather-app.netlify.app',
       githubLink: 'https://github.com/ChannMyae-Zaw/Portfolio'
     },
       {
-      title: 'Korean Movie Recommender',
-      description: 'Angular + OpenWeather API integration',
+      title: 'Korean Series Recommender',
+      description: 'A content-based movie recommendation system built on a curated Korean films dataset. It analyzes genres, keywords, and user preferences to suggest best fitting series according to user input. Designed for K-series fans, this project combines data science, natural language processing, and machine learning to deliver personalized recommendations.',
       imageUrl: "",
       techStack:["Python", "Streamlit", "HuggingFace Space"],
       link: 'https://huggingface.co/spaces/Chenjelly/Korean-Series-Recommender',
