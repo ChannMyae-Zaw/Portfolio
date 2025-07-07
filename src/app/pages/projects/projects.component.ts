@@ -60,7 +60,7 @@ export class ProjectsComponent {
       description: 'A responsive, modern portfolio built with Angular and Firebase to showcase projects, blogs, and skills. It features Firebase Authentication for admin side,  dynamic blog filtering, and Firestore integration for smooth content management. Designed to highlight both technical expertise and project experience in a clean, user-friendly layout.',
       imageUrl: "",
       techStack:["Angular", "Firebase", "Server-side"],
-      link: 'https://your-weather-app.netlify.app',
+      link:"https://portfolio-1aba7.web.app",
       githubLink: 'https://github.com/ChannMyae-Zaw/Portfolio'
     },
       {
